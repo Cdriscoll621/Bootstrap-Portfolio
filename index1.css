@@ -148,6 +148,32 @@ input[type=submit] {
 	display: block;
 	clear: both;
 
+}
+
+
+@media screen and (max-width: 980px) {
+	 body {
+    background-color: pink;
+  }
+
+  	.wrapper {
+  		width: 100%;	
+  		padding: 20px;
+  	}
+
+@media screen and (max-width: 768px) {
+	body {
+		background-color: #4aaaa5;
+
+	}
+
+
+@media screen and (max-width: 640px) {
+	body {
+		background-color: #E1DEDD;
+	}
+
+
 
 
 
