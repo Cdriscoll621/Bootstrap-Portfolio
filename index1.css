@@ -4,23 +4,51 @@
 
 
 body {
-	color: #414141;
+	color: #ffffff;
 	background-color: #EEEEEE;
 	font-family: "Helvetica", "Arial" sans-serif;
-	background-image: url(images/memphis-colorful.jpg);
+
 }
 
 h1, p, {
-	background-color: #DDE0E3;
+	
 }
 
 h1 {
-	padding: 50px;
-	border: 1px solid #5D6063;
+	padding: 10px;
+	
 }
 
 p {
 	padding: 20px 0px 20px 0px;
+	font-size: 10pt;
+}
+
+
+.git {
+
+	padding: 3px;
+	display: flex;
+	
+
+}
+
+.stack {
+	padding: 3px;
+	display: flex;
+	j
+
+}
+
+.linked {
+	padding: 3px;
+	display: flex;
+
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
 }
 
 footer {
@@ -38,15 +66,15 @@ footer {
 }
 
 .heading {
-	height: 200px;
-	background-color: #F5CF8E;
+	height: 100px;
+	background-color: #4aaaa5;
+	width: 500px;
 }
 
 .sidebar {
 	float: left;
 	height: 600px;
 	width: 300px;
-	background-color: #D6E9FE;
 }
 
 .content {
@@ -75,6 +103,17 @@ footer {
 	width: 700px;
 	margin: 0 auto;
 	height: 700px;
+	padding: 20px;
+	border: 2px solid #dddddd;
+}
+
+.infocard {
+	background-color: #E1DEDD;
+
+}
+
+.infohead {
+	color: #4aaaa5;
 }
 
 .container {
